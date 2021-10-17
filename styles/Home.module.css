@@ -41,9 +41,6 @@
 
 .ctaGroup Button{
   box-shadow: 0 0 10px #b2b2b2;
-}
-
-.ctaButton{
   background: #6930C3;
   font-weight: normal;
   font-family: 'Poppins';
@@ -52,7 +49,7 @@
   text-transform: capitalize !important
 }
 
-.ctaButton:hover{
+.ctaGroup Button:hover{
   background: #56E1D0 !important;
 }
 
