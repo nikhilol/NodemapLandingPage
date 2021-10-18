@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta name="title" content="Share beautiful flowcharts alongside detailed content "></meta>
-        <meta name="description" content="Nodemap let's you create and easily share interactive flowcharts that contain detailed content, images and notes alongside"></meta>
-        <meta name="keywords" content="flowcharts, content, resources, guides, visual"></meta>
-        <meta name="robots" content="index, follow"></meta>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-        <meta name="language" content="English"></meta>
+        <meta name="title" content="Share beautiful flowcharts alongside detailed content "/>
+        <meta name="description" content="Nodemap let's you create and easily share interactive flowcharts that contain detailed content, images and notes alongside"/>
+        <meta name="keywords" content="flowcharts, content, resources, guides, visual"/>
+        <meta name="robots" content="index, follow"/>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="English"/>
         <style>
           @import url({"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"});
         </style>
