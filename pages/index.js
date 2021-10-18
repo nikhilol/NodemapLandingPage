@@ -31,7 +31,7 @@ export default function Home() {
                 <span style={{ color: "#56E1D0" }}>detailed content</span>
               </h1>
               <p style={{ fontWeight: "normal" }}>
-                Easily distribute interactive, beautiful and interesting versionsof text resources without compromising on content.
+                Easily distribute interactive, beautiful and interesting versions of text resources without compromising on content.
               </p>
               <div className={styles.ctaGroup}>
                 <a href='https://app.nodemap.io/signup'>
