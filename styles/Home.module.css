@@ -144,7 +144,7 @@
     display: none;
   }
   .container{
-    padding-top: 5vh;
+    padding-top: 2vh;
     width: 100vw;
     flex-direction: column;
   }
@@ -153,6 +153,9 @@
   }
   .heroText{
     max-width: 75%;
+  }
+  .heroText h1{
+    font-size: x-large;
   }
   .cardsContainer{
     display: flex;
