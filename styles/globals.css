@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-image: radial-gradient(#e0e0e0 2px, transparent 0); background-size: 3vh 3vh;
+  background-image: radial-gradient(#c0c0c0 1px, transparent 0); background-size: 3vh 3vh;
   background-color: #F8F7F2;
   font-family: 'Poppins';
   max-width: 100vw;
