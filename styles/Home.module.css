@@ -95,6 +95,32 @@
   margin-left: 1vh;
 }
 
+.NodemapInfoContainer{
+  width: 80vw;
+  display:flex;
+  align-items: flex-start;
+  margin: 10vh 0vh;
+}
+
+.NodemapInfoContainer div{
+  padding: 5vh;
+  border-radius: 10px;
+  border: 2px dashed #e5e5e5;
+  margin: 1vh;
+  height: 100%;
+  background-color: #F8F7F2;
+}
+
+.NodemapInfoTitle{
+  text-align: center;
+  margin-bottom: 5vh;
+  color: #56E1D0;
+}
+
+.NodemapInfoContent{
+  text-align: center;
+}
+
 @media only screen and (min-width: 601px) {
   .outer{
     width: 100%;
@@ -136,6 +162,13 @@
     background: #F8F7F2;
     min-width: 25vw;
   }
+  .NodemapInfoContainer{
+    width: 80vw;
+    margin: 10vh 0vh;
+  }
+  .NodemapInfoContainer div{
+    max-width: 50%;
+  }
   
 }
 
@@ -172,5 +205,12 @@
     padding: 2vh;
     background: #F8F7F2;
   }
-  
+  .NodemapInfoContainer{
+    width: 100vw;
+    margin: 5vh 0vh;
+    flex-direction: column;
+  }
+  .NodemapInfoContainer div{
+    min-width: 80vw;
+  }
 }
