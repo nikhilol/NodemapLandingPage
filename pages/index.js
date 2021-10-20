@@ -57,11 +57,11 @@ export default function Home() {
               <div className={styles.NodemapInfoContainer}>
                   <div clasName={styles.NodemapInfoBlock}>
                     <h2 className={styles.NodemapInfoTitle}>What is Nodemap?</h2>
-                    <p className={styles.NodemapInfoContent}>Nodemap combines flowcharts with a content section to turn them into interactive, all-in-one knowledge hubs, each of these creations is a 'Nodemap'. Usually flowchart nodes only contain short labels or titles... not anymore.<br/><br/>You have a blank canvas for each node in your Nodemap where you can use text, links, images and videos to jam pack your Nodemap full of information in a simple, elegant way. The best bit? You can share a copy of your creation with colleagues and clients with a simple link.</p>
+                    <p className={styles.NodemapInfoContent}>{"Nodemap combines flowcharts with a content section to turn them into interactive, all-in-one knowledge hubs, each of these creations is a 'Nodemap'. Usually flowchart nodes only contain short labels or titles... not anymore.<br/><br/>You have a blank canvas for each node in your Nodemap where you can use text, links, images and videos to jam pack your Nodemap full of information in a simple, elegant way. The best bit? You can share a copy of your creation with colleagues and clients with a simple link."}</p>
                   </div>
                   <div clasName={styles.NodemapInfoBlock}>
                     <h2 className={styles.NodemapInfoTitle}>Who uses Nodemap?</h2>
-                    <p className={styles.NodemapInfoContent}>Visual storytellers, course creators and marketing strategists alike, Nodemappers are visual people that prefer videos, images and diagrams to boring pages of text. They are creators at heart that love sharing knowledge with others and sometimes want to turn this into an income source of it's own.</p>
+                    <p className={styles.NodemapInfoContent}>{"Visual storytellers, course creators and marketing strategists alike, Nodemappers are visual people that prefer videos, images and diagrams to boring pages of text. They are creators at heart that love sharing knowledge with others and sometimes want to turn this into an income source of it's own."}</p>
                   </div>
               </div>
           </div>
