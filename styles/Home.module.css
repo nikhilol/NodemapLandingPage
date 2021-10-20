@@ -213,4 +213,7 @@
   .NodemapInfoContainer div{
     min-width: 80vw;
   }
+  .NodemapInfoContent{
+    width: 100%
+  }
 }
