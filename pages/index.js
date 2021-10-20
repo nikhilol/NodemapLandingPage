@@ -63,7 +63,8 @@ export default function Home() {
                   </div>
                   <div clasName={styles.NodemapInfoBlock}>
                     <h2 className={styles.NodemapInfoTitle}>Who uses Nodemap?</h2>
-                    <p className={styles.NodemapInfoContent}>{"Visual storytellers, course creators and marketing strategists alike, Nodemappers are visual people that prefer videos, images and diagrams to boring pages of text. They are creators at heart that love sharing knowledge with others and sometimes want to turn this into an income source of it's own."}</p>
+                    <p className={styles.NodemapInfoContent}>{"Visual storytellers, course creators and marketing strategists alike, Nodemappers are visual people that prefer videos, images and diagrams to boring pages of text."}</p>
+                    <p className={styles.NodemapInfoContent}>{"They are creators at heart that love sharing knowledge with others and sometimes want to turn this into an income source of it's own."}</p>
                   </div>
               </div>
           </div>
