@@ -24,17 +24,16 @@ export default function Home() {
       <div className={styles.main}>
         <nav className={styles.nav}>
           <img alt="" src={"/NodemapLogo.png"} className={styles.logo}></img>
-          <a href='https://app.nodemap.io/signup'><Button variant='outlined'>Launch app</Button></a>
+          <a href='https://app.nodemap.io/signup'><Button variant='filled'>Launch app</Button></a>
         </nav>
         <div  className={styles.outer}>
           <div className={styles.container}>
             <img alt="" src={"/HeroImage.png"} className={styles.hero}></img>
             <div className={styles.heroText}>
-              <h1>
+              <h1 className={styles.xxLarge}>
                 Share{" "}
-                <span style={{ color: "#5E60CE" }}>interactive flowcharts</span>{" "}
-                alongside{" "}
-                <span style={{ color: "#56E1D0" }}>detailed content</span>
+                <span style={{ color: "#5E60CE" }}>interactive flowcharts</span>{" "}alongside{" "}
+                <span style={{ color: "white", background:'#5E60CE', padding:'0vh 1vh', borderRadius:'5px'}}>detailed content</span>
               </h1>
               <p style={{ fontWeight: "normal" }}>
                 Easily distribute interactive, beautiful and interesting versions of text resources without compromising on content.
@@ -69,23 +68,20 @@ export default function Home() {
               </div>
           </div>
           <div className={styles.ctaGroup} style={{flexDirection:'column', alignItems:'center', textAlign:'center', padding:'5vh 0vh'}}>
-              <h1>What people <span style={{fontStyle:'italic', fontFamily:'Permanent marker', margin:'0', color:'#6930C3', textTransform:'uppercase'}}> love </span> about Nodemap</h1>
+              <h1 style={{fontSize:'xx-large'}}>What people <span style={{fontStyle:'italic', fontFamily:'Permanent marker', margin:'0', color:'#6930C3', textTransform:'uppercase'}}>love</span> about Nodemap</h1>
           </div>
           <div className={styles.outer}>
             <div className={styles.cardsContainer}>
-              <Card className={styles.card}>
+              <Card elevation={0} className={styles.card}>
                 <h2>Create</h2>
-                <Divider></Divider>
                 <p>You have full control over the layout and content of your Nodemap creations. Drag nodes around, use custom node images and embed video content to create something useful and beautiful.</p>
               </Card>
-              <Card className={styles.card}>
+              <Card elevation={0} className={styles.card}>
                 <h2>Share</h2>
-                <Divider></Divider>
                 <p>Sharing your creations with clients, colleagues or an online audience? Just send over your Nodemap link. They will be able to view your resource and can import it into their collection to track progress and make additional notes.</p>
               </Card>
-              <Card className={styles.card}>
+              <Card  elevation={0} className={styles.card}>
                 <h2>Earn</h2>
-                <Divider></Divider>
                 <p>You have the opportunity to password protect Nodemaps so that you can sell them. This puts money back into the hands of our creators who share their knowledge with others.</p>
               </Card>
             </div>
