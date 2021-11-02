@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         <meta name="title" content="Share beautiful flowcharts alongside detailed content "/>
-        <meta name="description" content="Nodemap let's you create and easily share interactive flowcharts that contain detailed content, images and notes alongside"/>
+        <meta name="description" content="Nodemap let's you create and easily share interactive flowcharts that contain detailed content, images, videos and notes alongside"/>
         <meta name="keywords" content="flowcharts, content, resources, guides, visual"/>
         <meta name="robots" content="index, follow"/>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
