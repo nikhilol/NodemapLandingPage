@@ -53,7 +53,7 @@ export default function Home() {
         </div>
         <div className={styles.cardSection}>
           <div style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
-            <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:'url(section1.png)', backgroundRepeat:'no-repeat', backgroundPosition:'top right'}}>
+            <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:`url(/static/Section1.png)`, backgroundRepeat:'no-repeat', backgroundPosition:'top right'}}>
               <div style={{display:'flex', flexDirection:'column'}}>
                 <h1 style={{fontSize:'8vw', marginBottom:'0'}}>A new type of resource</h1>
                 <p style={{width:'70%'}}>{"Nodemap combines flowcharts with a content section to turn them into interactive, all-in-one knowledge hubs, each of these creations is a 'Nodemap'. Usually flowchart nodes only contain short labels or titles... not anymore. You have a blank canvas for each node in your Nodemap where you can use text, links, images and videos to jam pack your Nodemap full of information in a simple, elegant way. You can also share a copy of your creation with colleagues and clients with a simple link."}</p>
