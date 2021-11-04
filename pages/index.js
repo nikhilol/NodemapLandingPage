@@ -52,20 +52,25 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.cardSection}>
-          <div className={styles.outer}>
-              <div className={styles.NodemapInfoContainer}>
-                  <div clasName={styles.NodemapInfoBlock}>
-                    <h2 className={styles.NodemapInfoTitle}>What is Nodemap?</h2>
-                    <p className={styles.NodemapInfoContent}>{"Nodemap combines flowcharts with a content section to turn them into interactive, all-in-one knowledge hubs, each of these creations is a 'Nodemap'. Usually flowchart nodes only contain short labels or titles... not anymore. "}</p>
-                    <p className={styles.NodemapInfoContent}>{"You have a blank canvas for each node in your Nodemap where you can use text, links, images and videos to jam pack your Nodemap full of information in a simple, elegant way"}</p>
-                    <p className={styles.NodemapInfoContent}>{"The best bit? You can share a copy of your creation with colleagues and clients with a simple link."}</p>
-                  </div>
-                  <div clasName={styles.NodemapInfoBlock}>
-                    <h2 className={styles.NodemapInfoTitle}>Who uses Nodemap?</h2>
-                    <p className={styles.NodemapInfoContent}>{"Visual storytellers, course creators and marketing strategists alike, Nodemappers are visual people that prefer videos, images and diagrams to boring pages of text."}</p>
-                    <p className={styles.NodemapInfoContent}>{"They are creators at heart that love sharing knowledge with others and sometimes want to turn this into an income source of it's own."}</p>
-                  </div>
+          <div style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
+            <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:'url(section1.png)', backgroundRepeat:'no-repeat', backgroundPosition:'top right'}}>
+              <div style={{display:'flex', flexDirection:'column'}}>
+                <h1 style={{fontSize:'8vw', marginBottom:'0'}}>A new type of resource</h1>
+                <p style={{width:'70%'}}>Nodemap combines flowcharts with a content section to turn them into interactive, all-in-one knowledge hubs, each of these creations is a 'Nodemap'. Usually flowchart nodes only contain short labels or titles... not anymore. You have a blank canvas for each node in your Nodemap where you can use text, links, images and videos to jam pack your Nodemap full of information in a simple, elegant way. You can also share a copy of your creation with colleagues and clients with a simple link.</p>
               </div>
+            </div>
+            <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:'url(section2.png)', backgroundRepeat:'no-repeat', backgroundSize:'60%', backgroundPosition:'left bottom'}}>
+              <div style={{display:'flex', flexDirection:'column', textAlign:'right', alignItems:'flex-end'}}>
+                <h1 style={{fontSize:'8vw', marginBottom:'0'}}>Embed all types of content</h1>
+                <p style={{width:'60%', marginBottom:'20vh'}}>Bring together content from anywhere into the content section of each node in your Nodemap. It's now quick and easy for your viewer to see which content is relevant to their current stage!</p>
+              </div>
+            </div>
+            <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:'url(section3.png)', backgroundRepeat:'no-repeat', backgroundSize:'40%', backgroundPosition:'right bottom'}}>
+              <div style={{display:'flex', flexDirection:'column'}}>
+                <h1 style={{fontSize:'8vw', marginBottom:'0'}}>Take things step by step</h1>
+                <p style={{width:'50%'}}>Break down processes, tasks, strategies and more into managable, easy to follow steps for clients and colleagues.</p>
+              </div>
+            </div>
           </div>
           <div className={styles.ctaGroup} style={{flexDirection:'column', alignItems:'center', textAlign:'center', padding:'5vh 0vh'}}>
               <h1 style={{fontSize:'xx-large'}}>What people <span style={{fontStyle:'italic', fontFamily:'Permanent marker', margin:'0', color:'#6930C3', textTransform:'uppercase'}}>love</span> about Nodemap</h1>
