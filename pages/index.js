@@ -36,7 +36,7 @@ export default function Home() {
                 <span style={{ color: "white", background:'#5E60CE', padding:'0vh 1vh', borderRadius:'5px'}}>detailed content</span>
               </h1>
               <p style={{ fontWeight: "normal" }}>
-                Easily distribute interactive, beautiful and interesting versions of text resources without compromising on content.
+                Create content packed flowcharts to share with clients and co-workers to demonstrate step by step processes and boost engagement. 
               </p>
               <div className={styles.ctaGroup}>
                 <a href='https://app.nodemap.io/signup'>
@@ -56,19 +56,19 @@ export default function Home() {
             <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:`url(/static/Section1.png)`, backgroundRepeat:'no-repeat', backgroundPosition:'top right'}}>
               <div style={{display:'flex', flexDirection:'column'}}>
                 <h1 style={{fontSize:'8vw', marginBottom:'0'}}>A new type of resource</h1>
-                <p style={{width:'70%'}}>{"Nodemap combines flowcharts with a content section to turn them into interactive, all-in-one knowledge hubs, each of these creations is a 'Nodemap'. Usually flowchart nodes only contain short labels or titles... not anymore. You have a blank canvas for each node in your Nodemap where you can use text, links, images and videos to jam pack your Nodemap full of information in a simple, elegant way. You can also share a copy of your creation with colleagues and clients with a simple link."}</p>
+                <p style={{width:'70%', fontSize:'large'}}>{"Usually flowcharts only contain short labels... not anymore. You have a blank canvas for each node where you can use text, links, images and videos to jam pack your Nodemap full of information. Create an online knowledge hub with easy to follow, interactive content."}</p>
               </div>
             </div>
             <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:'url(/static/Section2.png)', backgroundRepeat:'no-repeat', backgroundSize:'60%', backgroundPosition:'left bottom'}}>
               <div style={{display:'flex', flexDirection:'column', textAlign:'right', alignItems:'flex-end'}}>
                 <h1 style={{fontSize:'8vw', marginBottom:'0'}}>Embed all types of content</h1>
-                <p style={{width:'60%', marginBottom:'20vh'}}>{"Bring together content from anywhere into the content section of each node in your Nodemap. It's now quick and easy for your viewer to see which content is relevant to their current stage!"}</p>
+                <p style={{width:'60%', marginBottom:'20vh', fontSize:'large'}}>{"Bring together information from anywhere into the content section of each node. It's now quick and easy for your viewer to see which content is most relevant to where they are!"}</p>
               </div>
             </div>
             <div style={{background:'#F8F8FB', height:'auto', margin:'5vh 0', position:'relative', width:'70%', backgroundImage:'url(/static/Section3.png)', backgroundRepeat:'no-repeat', backgroundSize:'40%', backgroundPosition:'right bottom'}}>
               <div style={{display:'flex', flexDirection:'column'}}>
                 <h1 style={{fontSize:'8vw', marginBottom:'0'}}>Take things step by step</h1>
-                <p style={{width:'50%'}}>Break down processes, tasks, strategies and more into managable, easy to follow steps for clients and colleagues.</p>
+                <p style={{width:'50%', fontSize:'large'}}>Break down processes, tasks, and strategies into easy to follow steps for clients and colleagues.</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Home() {
             <div className={styles.cardsContainer}>
               <Card elevation={0} className={styles.card}>
                 <h2>Create</h2>
-                <p>You have full control over the layout and content of your Nodemap creations. Drag nodes around, use custom node images and embed video content to create something useful and beautiful.</p>
+                <p>You have full control over the layout and content of your creations. Drag nodes around, use custom images and embed different types of content.</p>
               </Card>
               <Card elevation={0} className={styles.card}>
                 <h2>Share</h2>
