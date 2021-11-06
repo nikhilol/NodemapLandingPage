@@ -41,7 +41,7 @@ export default function Home() {
               <div className={styles.ctaGroup}>
                 <a href='https://app.nodemap.io/signup'>
                   <Button className={styles.ctaButton} variant="contained">
-                    get started
+                    get access
                   </Button>
                 </a>
                 <span > or try our{" "}
@@ -94,7 +94,7 @@ export default function Home() {
           <div className={styles.ctaGroup} style={{flexDirection:'column', alignItems:'center', padding:'5vh 0vh'}}>
               <a href='https://app.nodemap.io/signup'>
                 <Button className={styles.ctaButton} variant="contained">
-                  get started
+                  get access
                 </Button>
               </a>
               <span style={{margin:'1vh 0'}}> or try our{" "}
