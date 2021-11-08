@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "../../styles/Home.module.css";
 
 
-export const UseCaseCard = (props) =>{
+export default function UseCaseCard(props){
     return(
         <Card elevation={1} className={styles.UseCaseCard}>
             <h2>{props.Title}</h2>

@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { Button, Card, Divider } from "@mui/material";
 import { SocialIcon } from "react-social-icons";
-import {UseCaseCard} from './Components/UseCaseCard' 
+import UseCaseCard from './Components/UseCaseCard' 
 
 export default function Home() {
   return (
