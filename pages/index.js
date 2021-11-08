@@ -83,7 +83,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.ctaGroup} style={{flexDirection:'column', alignItems:'center', textAlign:'center', padding:'0vh 0vh', marginTop:'20vh'}}>
-              <h1 style={{fontSize:'xx-large'}}>What people use Nodemap for</h1>
+              <h1 style={{fontSize:'xx-large', marginBottom:'5vh'}}>What can Nodemap do for you?</h1>
           </div>
           <div className={styles.outer}>
             <div className={styles.UseCaseContainer}>
