@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { Button, Card, Divider } from "@mui/material";
 import { SocialIcon } from "react-social-icons";
+import {UseCaseCard} from './Components/UseCaseCard' 
 
 export default function Home() {
   return (
@@ -70,6 +71,19 @@ export default function Home() {
                 <h1 style={{fontSize:'8vw', marginBottom:'0'}}>Take things step by step</h1>
                 <p style={{width:'50%', fontSize:'large'}}>Break down processes, tasks, and strategies into easy to follow steps for clients and colleagues.</p>
               </div>
+            </div>
+          </div>
+          <div className={styles.ctaGroup} style={{flexDirection:'column', alignItems:'center', textAlign:'center', padding:'0vh 0vh', marginTop:'20vh'}}>
+              <h1 style={{fontSize:'xx-large'}}>What people use Nodemap for</h1>
+          </div>
+          <div className={styles.outer}>
+            <div className={styles.UseCaseContainer}>
+              <UseCaseCard  Title={'To-dos'} description1={'Plan tasks'} description2={'Track progress'} description3={'Clarify your path'}/>
+              <UseCaseCard  Title={'Strategy  planning'} description1={'Plan visually'} description2={'Share strategies with your team'} description3={'Create a roadmap for a client'}/>
+              <UseCaseCard  Title={'Product roadmaps'} description1={'Share your progress with users'} description2={'Live updates'} description3={'Users can track your progress'}/>
+              <UseCaseCard  Title={'Online courses'} description1={'Create visual knowledge hubs'} description2={'Sell your Nodemap online'} description3={'Students can track their progress'}/>
+              <UseCaseCard  Title={'Process visualisation'} description1={'Share processes with new hires'} description2={'Create reference material'} description3={'Optimise'}/>
+              <UseCaseCard  Title={'Brainstorming'} description1={'Write notes quickly'} description2={'Document thought trails'} description3={'Multimedia idea aids'}/>
             </div>
           </div>
           <div className={styles.ctaGroup} style={{flexDirection:'column', alignItems:'center', textAlign:'center', padding:'5vh 0vh'}}>

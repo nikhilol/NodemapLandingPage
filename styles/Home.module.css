@@ -181,7 +181,35 @@
   .NodemapInfoContainer div{
     max-width: 50%;
   }
-  
+  .UseCaseContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 20vh;
+  }
+  .UseCaseCard{
+    margin: 5px;
+    width: 30%;
+    padding: 2vh;
+    margin: 2vh;
+    transition: all 0.5s;
+
+  }
+  .UseCaseCard:hover{
+    box-shadow: 0px 10px 40px #c3c4ff;
+  }
+  .UseCaseCard h2{
+    margin-top: 0;
+    background-color: #c3c4ff;
+    padding: 1vh;
+    border-radius: 5px;
+    color: #363775;
+  }
+  .UseCaseCard ul{
+    color: #5E60CE;
+    font-style: italic;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -227,5 +255,34 @@
   }
   .NodemapInfoContent{
     width: 100%
+  }
+  .UseCaseContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20vh;
+  }
+  .UseCaseCard{
+    margin: 5px;
+    width: 90%;
+    padding: 2vh;
+    margin: 1vh;
+    transition: all 0.5s;
+
+  }
+  .UseCaseCard:hover{
+    box-shadow: 0px 10px 40px #c3c4ff;
+  }
+  .UseCaseCard h2{
+    margin-top: 0;
+    background-color: #c3c4ff;
+    padding: 1vh;
+    border-radius: 5px;
+    color: #363775;
+  }
+  .UseCaseCard ul{
+    color: #5E60CE;
+    font-style: italic;
   }
 }
